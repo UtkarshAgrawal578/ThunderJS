@@ -1,0 +1,55 @@
+# ── Compiled Binaries ──────────────────────────
+jsrun
+jsrun.exe
+
+# ── Build Directories ──────────────────────────
+build/
+out/
+bin/
+obj/
+
+# ── Object & Dependency Files ──────────────────
+*.o
+*.obj
+*.a
+*.lib
+*.d
+
+# ── VS Code ────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── CMake ──────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# ── Windows ────────────────────────────────────
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── Mac ────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Linux ──────────────────────────────────────
+*~
+.fuse_hidden*
+.Trash-*
+
+# ── Logs & Temp Files ──────────────────────────
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ── Test Output Files (keep .js, ignore results)
+*.out
